@@ -22,7 +22,7 @@ driver = webdriver.Edge(service=service, options=edge_options)
 driver.get('https://thispersondoesnotexist.com/')
 
 # 创建保存图像的目录
-save_path = r'D:\Study Date\Machine learning homework\dataset\train\generatedAI'
+save_path = r'/dataset/train/generatedAI'
 if not os.path.exists(save_path):
     os.makedirs(save_path)
 
